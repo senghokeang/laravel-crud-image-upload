@@ -4,10 +4,8 @@
 [![Laravel](https://img.shields.io/badge/Laravel-12-red)](https://laravel.com/)  
 [![PHP](https://img.shields.io/badge/PHP-8.3-blue)](https://www.php.net/)  
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-lightgrey)](https://www.mysql.com/)  
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-This repository contains the **full source code** for the tutorial:  
-[**Laravel CRUD with Image Upload – Step-by-Step Guide**](https://laravelcenter.com/laravel-crud-with-image-upload/) on LaravelCenter.com.
+This repository contains the **full source code** for the tutorial: [**Laravel CRUD with Image Upload – Step-by-Step Guide**](https://laravelcenter.com/laravel-crud-with-image-upload/) on LaravelCenter.com.
 
 Learn how to **create, read, update, and delete records** and handle **image uploads** in Laravel with clean, beginner-friendly code.
 
