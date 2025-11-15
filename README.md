@@ -1,5 +1,5 @@
 # Laravel CRUD with Image Upload
-<p align="center"><a href="https://laravelcenter.com/laravel-crud-with-image-upload" target="_blank"><img src="https://laravelcenter.com/wp-content/uploads/2025/06/Laravel-CRUD-with-image-upload.webp" width="100%" alt="Laravel CRUD with Image Upload"></a></p>
+<p align="center"><a href="https://laravelcenter.com/laravel-crud-with-image-upload" target="_blank"><img src="public/Laravel-CRUD-with-image-upload.webp" width="100%" alt="Laravel CRUD with Image Upload"></a></p>
 
 [![Laravel](https://img.shields.io/badge/Laravel-12-red)](https://laravel.com/)  
 [![PHP](https://img.shields.io/badge/PHP-8.3-blue)](https://www.php.net/)  
@@ -46,6 +46,7 @@ npm run dev
 
 # Start the local server
 php artisan serve
+
 ```
 
 ## 📦 Tech Stack
