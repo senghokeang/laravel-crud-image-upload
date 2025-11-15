@@ -1,59 +1,68 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Laravel CRUD with Image Upload
+<p align="center"><a href="https://laravelcenter.com/laravel-crud-with-image-upload" target="_blank"><img src="https://laravelcenter.com/wp-content/uploads/2025/06/Laravel-CRUD-with-image-upload.webp" width="100%" alt="Laravel CRUD with Image Upload"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Laravel](https://img.shields.io/badge/Laravel-12-red)](https://laravel.com/)  
+[![PHP](https://img.shields.io/badge/PHP-8.3-blue)](https://www.php.net/)  
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-lightgrey)](https://www.mysql.com/)  
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## About Laravel
+This repository contains the **full source code** for the tutorial:  
+[**Laravel CRUD with Image Upload – Step-by-Step Guide**](https://laravelcenter.com/laravel-crud-with-image-upload/) on LaravelCenter.com.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Learn how to **create, read, update, and delete records** and handle **image uploads** in Laravel with clean, beginner-friendly code.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 Features
 
-## Learning Laravel
+- Full **CRUD operations** (Create, Read, Update, Delete)  
+- **Image upload handling** with validation  
+- **Bootstrap 5** frontend for forms and tables  
+- Clear and beginner-friendly **project structure**  
+- Ready to clone and run locally
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠 Installation
 
-## Laravel Sponsors
+```bash
+# Clone the repository
+git clone https://github.com/YourUsername/laravel-crud-image-upload.git
+cd laravel-crud-image-upload
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+# Install dependencies
+composer install
+npm install
 
-### Premium Partners
+# Setup environment
+cp .env.example .env
+php artisan key:generate
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+# Run migrations
+php artisan migrate
 
-## Contributing
+# Build assets
+npm run dev
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+# Start the local server
+php artisan serve
+```
 
-## Code of Conduct
+## 📦 Tech Stack
+- Laravel 12
+- PHP 8+
+- Bootstrap 5
+- MySQL (or any database supported by Laravel)
+- Composer & NPM
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🔗 Tutorial
+Follow the full step-by-step tutorial here:
+[**https://laravelcenter.com/laravel-crud-with-image-upload**](https://laravelcenter.com/laravel-crud-with-image-upload/)
 
-## Security Vulnerabilities
+## 📌 Topics / Tags
+`laravel` | `php` | `crud` | `image-upload` | `bootstrap` | `mysql` | `web-development` | `tutorial`
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## ⭐ Support
+If this tutorial helps you, please star this repository and follow me on GitHub.
+Your support motivates me to create more high-quality, free tutorials.
