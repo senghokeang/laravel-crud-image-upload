@@ -39,6 +39,9 @@ php artisan key:generate
 # Run migrations
 php artisan migrate
 
+# Create storage link for uploaded images
+php artisan storage:link
+
 # Build assets
 npm run dev
 
